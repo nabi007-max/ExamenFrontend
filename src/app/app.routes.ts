@@ -13,9 +13,9 @@ export const routes: Routes =
                 import('./home/home').then(m=>m.Home)           
             },
             {
-                path:'about',
+                path:'bout',
                 loadComponent:()=>
-                import('./about/about').then(m=>m.About)           
+                import('./about/about').then(m=>m.about)           
             }
         ] 
     }

@@ -1,1 +1,20 @@
-<p>about works!</p>
+ <!-- Awards-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Registrar empleado</h2>
+                    <ul class="fa-ul mb-0">
+                        <p>Descripción del Proceso: Registrar proctos nuevos en la tabla “empledo”</p>
+                    <p class="mb-0">Utilizar los servicos de Laravel</p>
+        
+       
+            <div class="container">
+                 <div class="mb-3">
+                    <input [(ngModel)]="crearempleado.nombres" class="form-control mb-2" placeholder="Nombre del producto">
+                     <input [(ngModel)]="crearempleado.apellido" class="form-control mb-2" type="number" placeholder="Precio">
+                     <input [(ngModel)]="crearempleado.correo" class="form-control mb-2" type="number" placeholder="ID Categoría (opcional)">
+                    <input [(ngModel)]="crearempleado.sueldo" class="form-control mb-2" type="number" placeholder="ID Categoría (opcional)">
+                     
+                     <button (click)="crearempleado()" class="btn btn-primary">Guardar</button>
+                 </div>
+            </div>
+            
