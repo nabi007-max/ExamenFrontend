@@ -1,0 +1,32 @@
+ <!-- Interests-->
+            <section class="resume-section" id="home">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Ejercicio para Mostrar Productos</h2>
+                    <p>Descripción del Proceso: Visualizar datos guardados en la tabla “empleados”</p>
+                    <p class="mb-0">rObjetivo:
+                        Permitir al usuario o sistema consultar y visualizar la información almacenada en la tabla elementos de la base de datos, mostrando todos los registros o uno específico según sea requerido</p>
+                        <p></p>
+                        <p></p>
+                    <table class="tabla-productos">
+                         <thead>
+                           <tr>
+                            <th>nombre</th>
+                            <th>apellido</th>
+                            <th>correo</th>
+                            <th>sueldos</th>
+                           </tr>
+                         </thead>
+                         <tbody>
+                            <tr *ngFor="let p of empleado">
+                               <td>{{p.nombre }}</td>
+                               <td>{{ p.apellido }}</td>
+                               <td>{{ p.correo}}</td>
+                               <td>{{p.sueldos}}</td>
+                            </tr>
+                         </table>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+   
+            
