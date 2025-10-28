@@ -8,12 +8,12 @@ export const routes: Routes =
         component:Layout,
         children:[
             {
-                path:'',
+                path:'home',
                 loadComponent:()=>
                 import('./home/home').then(m=>m.Home)           
             },
             {
-                path:'bout',
+                path:'about',
                 loadComponent:()=>
                 import('./about/about').then(m=>m.about)           
             }
